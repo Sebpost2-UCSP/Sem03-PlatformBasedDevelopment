@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Login_screen">
+
+            <Button
+                android:id="@+id/button_first"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="110dp"
+                android:text="LOGIN"
+                android:textSize="24sp"
+                app:backgroundTint="@color/Priority_blue"
+                app:iconTint="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Priority_Icon" />
+
+            <Button
+                android:id="@+id/button_first3"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:text="CREATE ACCOUNT"
+                android:textSize="12sp"
+                app:backgroundTint="@color/Priority_blue"
+                app:iconTint="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_first" />
+
+            <Button
+                android:id="@+id/button_first4"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:text="FORGOT PASSWORD?"
+                android:textSize="12sp"
+                app:backgroundTint="@color/Priority_blue"
+                app:iconTint="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_first" />
+
+            <ImageView
+                android:id="@+id/Priority_Icon"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="250dp"
+                android:contentDescription="Priotiry_logo"
+                android:src="@drawable/logo_planner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/username_text"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="Username:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Priority_Icon" />
+
+            <TextView
+                android:id="@+id/password_text"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:text="Password:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Priority_Icon" />
+
+            <EditText
+                android:id="@+id/Insert_username"
+                style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toEndOf="@+id/username_text"
+                app:layout_constraintTop_toBottomOf="@+id/Priority_Icon" />
+
+            <EditText
+                android:id="@+id/insert_password"
+                style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="60dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:singleLine="false"
+                app:layout_constraintStart_toEndOf="@+id/password_text"
+                app:layout_constraintTop_toBottomOf="@+id/Priority_Icon" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="290dp"
+                android:text="Nightmode"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Priority_Icon" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintBottom_toTopOf="@+id/Priority_Icon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</layout>
