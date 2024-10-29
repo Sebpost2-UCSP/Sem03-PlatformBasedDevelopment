@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Priority</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" a href="style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <form name="formulario1" method="POST" action="login/register.php">
+                <div class="form_input">
+                    Registrate:<br>
+                    <input type="text" name="username" placeholder="Username" required/>
+                    <br>
+                    <input type="password" name="password" placeholder="Password" autocomplete="new-password" required/>
+                    <br>
+                    <input type="checkbox" id="lider" name="role" value="lider" >
+                    <label for="lider"> Lider?</label><br>
+                    <input type="text" name="nombre" placeholder="Nombre completo" />
+                    <br>
+                </div>
+                <input type="submit" name="submit" value="REGISTER" class="register"/>
+            </form>
+        </div>
+        <div class="container">
+            <form name="formulario2" method="POST" action="login/login.php">
+                <div class="form_input"> <br><br>
+                    Log in:<br>
+                    <input type="text" name="username" placeholder="Username" required/>
+                    <br>
+                    <input type="password" name="password" placeholder="Password" autocomplete="new-password" required/>
+                    <br>
+                </div>
+                <input type="submit" name="submit" value="LOGIN" class="login"/>
+            </form>
+            <br>
+            <h2>update</h2>
+        </div>
+    </body>
+</html>

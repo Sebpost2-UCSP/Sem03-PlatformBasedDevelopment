@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Persistence Laboratory</title>
+    <% include partials/head %>
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <% include partials/navigation %>
+
+    <!-- MAIN CONTENT -->
+
+        <main>
+            <div class="signin">
+                <form action="#" class="sign-in-form">
+
+                    <h2 class="title">Patient Information</h2>
+                    <h2 class="info">Name</h2>
+                    <div class="input-field" id="input-info">
+                        <span id="user" class="material-icons-outlined">account_circle</span>
+                        <input type="text" placeholder="First name and last name" required=""/>
+                    </div>
+                    <h2 class="info">Age</h2>
+                    <div class="input-field" id="input-info">
+                        <span id="user" class="material-icons-outlined">event</span>
+                        <input type="text" placeholder="Age" required=""/>
+                    </div>
+                    <h2 class="info">Birthday</h2>
+                    <div class="input-field" id="input-info">
+                        <span id="user" class="material-icons-outlined">cake</span>
+                        <input type="text" placeholder="dd/mm/aa" required=""/>
+                    </div>
+                    <h2 class="info">Phone</h2>
+                    <div class="input-field" id="input-info">
+                        <span id="user" class="material-icons-outlined">phone</span>
+                        <input type="text" placeholder="Phone number" required=""/>
+                    </div>
+                    <input type="submit" value="Add Patient" class="btn"/>
+                </form>
+            </div>
+        </main>
+    </body>
+
+    <!-- section one -->
+
+    <!-- FOOTER -->
+    <% include partials/footer %>
+
+    <!-- JAVASCRIPT CDNS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  
+</html>

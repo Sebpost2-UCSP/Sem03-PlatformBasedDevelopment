@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>New Task</title>
+</head>
+<body>
+ <form action="post_new_task.php" method="POST">
+  <table>
+
+
+   <tr>
+    <td>Task Description :</td>
+    <td><input type="text" name="task_description" required></td>
+   </tr>
+
+      <tr>
+    <td>Created By :</td>
+    <td><input type="number" name="created_by_ID" required></td>
+   </tr>
+
+         <tr>
+    <td>Created For :</td>
+    <td><input type="number" name="created_for_ID" required></td>
+   </tr>
+
+         <tr>
+    <td>Group ID :</td>
+    <td><input type="number" name="group_ID" required></td>
+   </tr>
+
+         <tr>
+    <td>Priority Level :</td>
+    <td><input type="number" name="priority_level" required></td>
+   </tr>
+
+         <tr>
+    <td>Due Time: </td>
+    <td><input type="datetime-local" name="due_time" required></td>
+   </tr>
+
+
+   <tr>
+    <td>Public :</td>
+    <td>
+     <input type="radio" name="public" value="1" required> Yes
+     <input type="radio" name="public" value="0" required> No
+    </td>
+   </tr>
+
+      <tr>
+    <td>Finshed :</td>
+    <td>
+     <input type="radio" name="finished" value="1" required> Yes
+     <input type="radio" name="finished" value="0" required> No
+    </td>
+   </tr>
+
+
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+
+
+  </table>
+ </form>
+</body>
+</html>

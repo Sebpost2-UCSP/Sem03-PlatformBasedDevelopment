@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Persistence Laboratory</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="/img/icon.ico">
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main>
+            <div class="signin">
+                <form action="/physician-home" class="sign-in-form">
+                    <img src="img/logo.png" alt="Logo" class="logo" style="width:110%">
+                    <h2 class="title">Sign in to your account</h2>
+                    <div class="input-field" id="input-mail">
+                        <span id="user" class="material-icons-outlined">mail</span>
+                        <input type="text" placeholder="E-mail" required=""/>
+                    </div>
+                    <div class="input-field" id="input-password">
+                        <span id="lock" class="material-icons">lock</span>
+                        <input type="password" placeholder="Password" id="password-input" required/>
+                        <span id="hide" class="material-icons" onclick="show_password()">visibility</span>
+                        <span id="show" class="material-icons" onclick="show_password()">visibility_off</span>
+                    </div>
+                        <button type="submit" class="btn">Sign in</button>                        
+                    <h2 class="recover">Forgot your password?</h2>
+                </form>
+            </div>
+        </main>
+    </body>
+    
+    <footer class="footer" id="footer">
+        <div class="footer-left">
+            <img src="img/footer-logo.png" alt="">
+            <p class="description">Priority Medical & Research Center is a nonprofit organization committed to clinical practice, education and research, providing expert, whole-person care to everyone who needs healing.</p>
+            <div class="socials">
+                <p id="follow">Follow Priority</p>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2 class="footer-title">For Professionals</h2>
+                <ul class="box">
+                    <li><a href="#">Find a doctor</a></li>
+                    <li><a href="#">Clinical Updates</a></li>
+                    <li><a href="#">Online Referrals</a></li>
+                    <li><a href="#">Provider Relations</a></li>
+                    <li><a href="#">View clinical trials</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2 class="footer-title">For Researchers</h2>
+                <ul class="box">
+                    <li><a href="#">Laboratories</a></li>
+                    <li><a href="#">Core Facilities</a></li>
+                    <li><a href="#">Clinical Trials</a></li>
+                    <li><a href="#">Research Faculty</a></li>
+                    <li><a href="#">Postdotoral Fellowships</a></li>
+                    <li><a href="#">Departments & Divisions</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="footer-title">Address</h2>
+                <ul class="box">
+                    <li><a href="#">333 First St. SW</a></li>
+                    <li><a href="#">Mirvik, VM 1409</a></li>
+                    <li><a href="#">Vikosit, OS</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer-bottom">
+            <p>All rights reserved by &copy;Priority 2021</p>
+        </div>
+    </footer>
+
+    <script>
+        function show_password() {
+            var password = document.getElementById("password-input");
+            var hide = document.getElementById("hide");
+            var show = document.getElementById("show");
+            
+            if(password.type === 'password') {
+                password.type = "text";
+                hide.style.display = "block";
+                show.style.display = "none";
+            }
+            else {
+                password.type = "password";
+                hide.style.display = "none";
+                show.style.display = "block";
+            }
+        }
+    </script>
+</html>
