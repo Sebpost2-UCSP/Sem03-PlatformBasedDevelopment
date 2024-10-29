@@ -28,3 +28,4 @@ Throughout this course, I developed skills in:
 #### 2. Dynamic Android Application
 - **Description**: This project involved creating a dynamic Android app using **Android Studio**. Although due to version updates, the app is currently inoperable, this assignment helped build a foundation in Android app development.
 - **Tools Used**: Android Studio for development, with a focus on creating a responsive and interactive interface.
+- **Demo video**: Google drive URL: https://drive.google.com/file/d/1GviEdJIM3abD6XlGm2H481-DhJZp2QiT/view?usp=sharing
