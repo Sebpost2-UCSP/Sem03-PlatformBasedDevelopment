@@ -23,6 +23,7 @@ Throughout this course, I developed skills in:
   - **Patient Management**: Physicians can add, edit, and delete patients, view their patient list, and filter or search for specific patients.
   - **Error Handling**: Appropriate error messages are shown for issues such as incorrect username or password entries.
 - **Additional Documentation**: A detailed README with project specifications, requirements, and the group’s grade is included in the `Persistence-laboratory-priority-2-0` directory.
+- **Demo video**: Youtube URL: Frontend:https://youtu.be/uTut8CMRG6g Backend: https://youtu.be/zu0B0Lh38Lg
 
 #### 2. Dynamic Android Application
 - **Description**: This project involved creating a dynamic Android app using **Android Studio**. Although due to version updates, the app is currently inoperable, this assignment helped build a foundation in Android app development.
@@ -33,6 +34,6 @@ For the **Persistence Laboratory** project:
 1. **Backend Setup**:
    - Set up Node.js and PostgreSQL. Follow the instructions in the specific README located within the `Persistence-laboratory-priority-2-0` folder.
 2. **Frontend**:
-   - Open `index.html` in a browser to test the interface (ensure the backend server is running).
+   - Open `login_page.html` in a browser to test the interface (ensure the backend server is running).
 3. **Android App**:
    - This project is currently not operable due to version compatibility issues with Android Studio.
