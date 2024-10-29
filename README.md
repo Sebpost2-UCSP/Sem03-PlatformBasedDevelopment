@@ -28,12 +28,3 @@ Throughout this course, I developed skills in:
 #### 2. Dynamic Android Application
 - **Description**: This project involved creating a dynamic Android app using **Android Studio**. Although due to version updates, the app is currently inoperable, this assignment helped build a foundation in Android app development.
 - **Tools Used**: Android Studio for development, with a focus on creating a responsive and interactive interface.
-
-### Usage Instructions
-For the **Persistence Laboratory** project:
-1. **Backend Setup**:
-   - Set up Node.js and PostgreSQL. Follow the instructions in the specific README located within the `Persistence-laboratory-priority-2-0` folder.
-2. **Frontend**:
-   - Open `login_page.html` in a browser to test the interface (ensure the backend server is running).
-3. **Android App**:
-   - This project is currently not operable due to version compatibility issues with Android Studio.
